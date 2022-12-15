@@ -1,0 +1,29 @@
+{
+  "name": "hira_currencyconverter",
+  "version": "1.0.0",
+  "description": "tsc --init \r npm init -y\r npm i @types/node -D \r npm i inquirer    \r npm i -D @types/inquirer\r npm i chalk chalk-animation\r npm i -D  @types/chalk \r npm i -D @types/chalk-animation",
+  "main": "index.js",
+  "type": "module",
+  "bin":{
+    "hira_currencyconverter":"./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/figlet": "^1.5.5",
+    "@types/gradient-string": "^1.1.2",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.11.14",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4"
+  }
+}
